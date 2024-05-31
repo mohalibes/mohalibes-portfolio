@@ -1,4 +1,3 @@
-// /data/projects-data.js
 import { rem } from '@mantine/core';
 import { IconRobot, IconHealthRecognition } from '@tabler/icons-react';
 
@@ -10,7 +9,14 @@ export const projects = [
     badgeColor: 'green',
     badgeText: 'Python',
     description: 'By leveraging the power of Machine Learning and statistical models, this project aimed to develop an intelligent trading platform adapted to the Tunisian stock market. The platform allows its users to...',
-    route: '/work/1'
+    route: '/work/1',
+    images: [
+      '/images/01_1.png',
+      '/images/01_2.png',
+      '/images/01_3.png',
+      '/images/01_4.png',
+      '/images/01_5.png'
+    ]
   },
   {
     id: '2',
@@ -19,6 +25,13 @@ export const projects = [
     badgeColor: 'green',
     badgeText: 'Php',
     description: 'Hygéia is a comprehensive healthcare management app that facilitates the management of patient records, appointments, and medical histories. The app provides an intuitive interface for both patients and healthcare providers...',
-    route: '/work/2'
+    route: '/work/2',
+    images: [
+      '/images/01_1.png',
+      '/images/01_2.png',
+      '/images/01_3.png',
+      '/images/01_4.png',
+      '/images/01_5.png'
+    ]
   }
 ];
